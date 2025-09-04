@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~PBNlgCrI#Ea6q5jvSxzN1tSqCyi7CQM0edwQT-bvm95trpzt82qs",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -33,7 +33,7 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "**",
     // set the auto reply message on status reply  
 
     WELCOME: process.env.WELCOME || "true",
@@ -94,7 +94,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",
     // false or true for anti bad words  
 
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
     // make anti link true,false for groups 
 
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
